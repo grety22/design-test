@@ -1,0 +1,107 @@
+/* Similar Fonts from Google */
+@import url("https://fonts.googleapis.com/css?family=Ropa+Sans|Salsa|Goudy+Bookletter+1911");
+/* RGB */
+body, html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: white !important;
+  margin-top: 20px !important;
+  background-image: url(../images/background-texture.png);
+  background-repeat: repeat;
+  background-size: 10px 10px;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+header {
+  background-color: white;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+header section h1 {
+  line-height: 80%;
+  font-weight: bold;
+  font-family: 'Ropa Sans', sans-serif !important;
+}
+
+header, main section {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+main section {
+  opacity: 0.85 !important;
+  position: relative;
+  cursor: pointer;
+}
+
+main section:hover {
+  opacity: 1 !important;
+  position: relative;
+}
+
+main section:active {
+  opacity: 1 !important;
+  border-top: solid 5px #4d4e50 !important;
+  position: relative;
+  border-bottom-right-radius: 25px;
+}
+
+main section:focus {
+  opacity: 1 !important;
+  border-top: solid 5px #4d4e50 !important;
+  position: relative;
+  font-size: 1.2em !important;
+  font-weight: bold;
+  border-bottom-right-radius: 25px;
+}
+
+main section#first {
+  background-color: #f24c4e;
+  width: 90%;
+  top: -25px;
+}
+
+main section#second {
+  background-color: #f77a4c;
+  width: 85%;
+  top: -55px;
+}
+
+main section#third {
+  background-color: #f9df44;
+  width: 80%;
+  top: -85px;
+}
+
+main section#fourth {
+  background-color: #c8f35a;
+  width: 75%;
+  top: -115px;
+}
+
+main section#fifth {
+  background-color: #51c9fa;
+  width: 55%;
+  top: -145px;
+}
+
+.section-p {
+  font-family: 'Salsa', cursive !important;
+  margin-top: 15px !important;
+  opacity: 1 !important;
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.header-section-p {
+  font-family: 'Goudy Bookletter 1911', serif !important;
+  line-height: 110%;
+}
+/*# sourceMappingURL=main.css.map */
